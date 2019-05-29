@@ -1,15 +1,38 @@
 import React from 'react'
 
 
-function Options (){
+class Options extends React.Component {
+    constructor() {
+        super() 
+        this.state = {
 
+            option: ""
+
+        }
+
+        this.handleChange = this.handleChange.bind(this)
+    }
+
+        handleChange(event) {
+
+
+        }
+
+        
+    render() {
     return (
-        <select>
-            <option> Kvinners rettigheter </option>
-            <option> LGBTQ </option>
-            <option> Ytringsfrihet </option>
+
+        <select value={this.state.option}
+
+            onChange={this.handleChange}
+            name="option">
+            <option value="kvinner"> Kvinners rettigheter </option>
+            <option value="lgbtq"> LGBTQ </option>
+            <option value="ytring"> Ytringsfrihet </option>
         </select>    
     )
+
+}
 }
 
 export default Options
