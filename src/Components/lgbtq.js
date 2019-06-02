@@ -1,7 +1,7 @@
 import React from 'react'
-import Data from '../Components/data'
+import lgbtqData from '../Components/lgbtqData'
 
-function LandItem(props) {
+function LgbtqItem(props) {
 
     return (
         <div className="countryContainer">
@@ -12,4 +12,4 @@ function LandItem(props) {
     )
 }
 
-export default LandItem 
+export default LgbtqItem 

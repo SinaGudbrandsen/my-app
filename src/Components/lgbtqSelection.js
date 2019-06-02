@@ -1,11 +1,11 @@
 import React from 'react'
-import Data from '../Components/data'
-import LandItem from '../Components/landItem'
+import lgbtqData from '../Components/lgbtqData'
+import LgbtqItem from '../Components/lgbtq'
 import Options from '../Components/Option'
 
 
-function Selection () {
-    const Items = Data.map(item => <LandItem key={item.id} item={item} />)
+function LgbtqSelection () {
+    const Items = lgbtqData.map(item => <LgbtqItem key={item.id} item={item} />)
 
 
       return (
@@ -21,4 +21,4 @@ function Selection () {
     }
 
 
-export default Selection
+export default LgbtqSelection
