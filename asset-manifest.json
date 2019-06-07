@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SinaGudbrandsen/my-app/static/css/main.6598ca22.chunk.css",
-    "main.js": "/SinaGudbrandsen/my-app/static/js/main.aeb43157.chunk.js",
-    "main.js.map": "/SinaGudbrandsen/my-app/static/js/main.aeb43157.chunk.js.map",
-    "runtime~main.js": "/SinaGudbrandsen/my-app/static/js/runtime~main.5d8c6abb.js",
-    "runtime~main.js.map": "/SinaGudbrandsen/my-app/static/js/runtime~main.5d8c6abb.js.map",
-    "static/js/2.5dbd8ed4.chunk.js": "/SinaGudbrandsen/my-app/static/js/2.5dbd8ed4.chunk.js",
-    "static/js/2.5dbd8ed4.chunk.js.map": "/SinaGudbrandsen/my-app/static/js/2.5dbd8ed4.chunk.js.map",
-    "index.html": "/SinaGudbrandsen/my-app/index.html",
-    "precache-manifest.ec9e8eee31dd0d4254189ad241ab4200.js": "/SinaGudbrandsen/my-app/precache-manifest.ec9e8eee31dd0d4254189ad241ab4200.js",
-    "service-worker.js": "/SinaGudbrandsen/my-app/service-worker.js",
-    "static/css/main.6598ca22.chunk.css.map": "/SinaGudbrandsen/my-app/static/css/main.6598ca22.chunk.css.map"
+    "main.css": "/my-app/static/css/main.6598ca22.chunk.css",
+    "main.js": "/my-app/static/js/main.f68a1ba5.chunk.js",
+    "main.js.map": "/my-app/static/js/main.f68a1ba5.chunk.js.map",
+    "runtime~main.js": "/my-app/static/js/runtime~main.6019dd84.js",
+    "runtime~main.js.map": "/my-app/static/js/runtime~main.6019dd84.js.map",
+    "static/js/2.5dbd8ed4.chunk.js": "/my-app/static/js/2.5dbd8ed4.chunk.js",
+    "static/js/2.5dbd8ed4.chunk.js.map": "/my-app/static/js/2.5dbd8ed4.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.afa7d27bccae7be1828ffbe84a6f09b5.js": "/my-app/precache-manifest.afa7d27bccae7be1828ffbe84a6f09b5.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/main.6598ca22.chunk.css.map": "/my-app/static/css/main.6598ca22.chunk.css.map"
   }
 }
