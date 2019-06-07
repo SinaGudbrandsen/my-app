@@ -52,14 +52,12 @@ class Options extends React.Component {
             name="option"
             placeholder="Hvilken sak er viktig for deg?"> 
             <option disabled >Hvilken sak er vikitg for deg?</option>
-            <option value="kvinner"> Kvinners rettigheter </option>
-            <option value="lgbtq"> LGBTQ </option>
-            <option value="ytring"> Ytringsfrihet </option>
+            <option value="kvinner">Kvinner</option>
+            <option value="lgbtq">LGBTQ</option>
+            <option value="ytring">Ytringsfrihet</option>
         </select>   
-        </div> 
-        
+        </div>  
     )
-
 }
 }
 

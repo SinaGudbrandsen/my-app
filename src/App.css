@@ -1,89 +1,419 @@
 .App {
   text-align: center;
-  background-color: #eae3d8;
+  background-color: white;
   height: 100vh;
   width: 100vw;
   margin: 0 auto; 
-}
-
-
-
-.gridContainer {
-  margin-top: 500px; 
-  display: grid;
-  width: 1200px; 
-  grid-template-columns: 300px 300px 300px; 
-  grid-template-rows: 300px 300px 300px; 
+  overflow: scroll;
 }
 
 .countryLine { 
-  width: 200px; 
+  width: 250px; 
   height: 1px; 
   background-color: black; 
 }
-
-/*
-.options {
-  font-family: 'cardo regular';
-  margin-top: 200px; 
-  font-size: 20px;
-  color: black;
+.countryContainer h1 {
+  width: 300px; 
+  text-align: left; 
+  font-family: 'avenir';
+  font-size: 15px; 
 }
-
-option {
-	background-color: #eae3d8;
-	color: gray;
-	width: 310px;
-	padding: 10px 15px;
-	height: 20px;
-	cursor: pointer;
+.countryContainer p {
+  width: 250px; 
+  text-align: left; 
+  font-family: 'avenir';
+  font-size: 15px; 
 }
-
-select {
-	margin: 0 auto;
-  color: #EC6F66;
-  background-color: #eae3d8;
-	width: 310px;
-	padding: 15px;
-	height: 50px;
-  cursor: pointer;
-  border: none;  
-  font-size: 15px; }
-*/
-
-
-  .optionsComponent {
-    width: 600px; 
+.optionsComponent {
+    width: 513px; 
     height: 60px; 
-    font-family: 'cardo regular';
+    font-family: 'avenir';
     margin: 0 auto; 
+    font-weight: 700; 
     padding-top: 100px; 
-    font-size: 20px;
-    color: black;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.192);
     display: grid; 
-    grid-template-columns: 200px 200px 200px; 
-  
+    grid-template-columns: 170px 170px 240px; 
+    grid-template-rows: 100px 10px; 
+    justify-content: center; 
+    cursor: pointer;
+  }
+  .optionKvinner {
+    color: black; 
+  }
+  .optionLgbtq {
+    color: black; 
+  }
+  .optionYtring {
+    color: black; 
   }
 
+ .optionGrey {
+  color: rgba(0, 0, 0, 0.192);
+ }
   .optionsLine {
-    width: 200px; 
+    width: 80px; 
     height: 1px; 
-    background-color: black; 
+    background-color: #4e36ff;  
     grid-column-start: 1; 
+    justify-self: center; 
+    transition: .2s;
+  }
+
+  .optionsLineTom {
+    opacity: 0;
   }
 
   .optionsLineLGBTQ {
-    width: 200px; 
+    width: 80px; 
     height: 1px; 
-    background-color: black; 
+    justify-self: center;
+    background-color: #4e36ff;  
     grid-column-start: 2;
-
+    transition: .2s;
   }
 
   .optionsLineYtring {
-    width: 200px; 
+    width: 80px; 
     height: 1px; 
-    background-color: black; 
+    justify-self: center;
+    background-color:  #4e36ff;  
     grid-column-start: 3;
-
+    transition: .2s;
   }
+
+.kvinnerSelection {
+  margin: 0 auto; 
+  margin-top: 150px; 
+  display: grid;
+  width: 900px; 
+  grid-gap: 10px; 
+  grid-template-columns: 300px 300px 300px; 
+  grid-template-rows: 300px 300px 300px; 
+}
+.kvinnerSelectionNone {
+  display: none; 
+}
+.lgbtqSelection {
+  margin: 0 auto;
+  margin-top: 150px; 
+  display: grid;
+  width: 900px; 
+  grid-template-columns: 300px 300px 300px; 
+  grid-template-rows: 300px 300px 300px; 
+}
+.lgbtqSelectionNone {
+  display: none; 
+}
+.ytringSelection {
+  margin: 0 auto;
+  margin-top: 150px; 
+  display: grid;
+  width: 900px; 
+  grid-template-columns: 300px 300px 300px; 
+  grid-template-rows: 300px 300px 300px; 
+}
+.ytringSelectionNone {
+  display: none; 
+} 
+
+.frontPageMessage {
+  margin: 0 auto;
+  padding-top: 200px;
+  width: 700px; 
+  color: #3a3a3a;
+  /*color: #4e36ff;*/ 
+  font-family: "avenir";
+  font-size: 1.7vw; 
+  text-align: justify;
+  font-weight: 500; 
+  letter-spacing: .1rem;
+  line-height: 2.2rem; 
+}
+
+.frontPageMessage span {
+  color: #4e36ff; 
+ 
+}
+.frontPageMessageNone {
+  display: none
+}
+/* iPad responsive sizes */
+@media (max-width: 1024px)  {
+      .optionsComponent {
+      width: 400px; 
+      height: 60px; 
+      font-family: 'avenir';
+      margin: 0 auto; 
+      padding-top: 100px; 
+      font-size: 3vw;
+      color: black;
+      display: grid; 
+      grid-template-columns: 133px 133px 133px; 
+    }
+    .optionsLine {
+      margin: 0 auto;
+      width: 100px; 
+      height: 1px; 
+      background-color: #4e36ff; 
+      grid-column-start: 1; 
+      transition: .2s;
+    }
+    .optionsLineTom {
+      opacity: 0;
+    }
+    .optionsLineLGBTQ {
+      width: 100px; 
+      margin: 0 auto; 
+      height: 1px; 
+      background-color:#4e36ff; 
+      grid-column-start: 2;
+      transition: .2s;
+    }
+  
+    .optionsLineYtring {
+      margin: 0 auto;
+      width: 100px; 
+      height: 1px; 
+      background-color: #4e36ff; 
+      grid-column-start: 3;
+      transition: .2s;
+    }
+    .kvinnerSelection {
+      padding-top: 150px; 
+      margin: 0 auto; 
+      width: 610px; 
+      display: grid; 
+      grid-template-columns: 300px 300px; 
+    }
+    .lgbtqSelection { 
+      padding-top: 150px; 
+      margin: 0 auto; 
+      width: 610px; 
+      display: grid; 
+      grid-template-columns: 300px 300px; 
+    }
+    .ytringSelection { 
+      padding-top: 150px; 
+      margin: 0 auto; 
+      width: 610px; 
+      display: grid; 
+      grid-template-columns: 300px 300px; 
+    }
+
+    .frontPageMessage {
+      margin: 0 auto;
+    padding-top: 200px;
+    width: 500px; 
+    color: #3a3a3a;
+    /*color: #4e36ff;*/ 
+    font-family: "avenir";
+    font-size: 1.7vw; 
+    text-align: justify;
+    font-weight: 500; 
+    letter-spacing: .1rem;
+    line-height: 2.2rem; 
+    }
+    
+    .frontPageMessage span {
+      color: #4e36ff; 
+     
+    }
+
+}
+
+/* iPhone/mobile landscape responsive sizes */
+@media (max-width: 800px) {
+
+  .optionsComponent {
+    width: 400px; 
+    height: 60px; 
+    font-family: 'avenir';
+    margin: 0 auto; 
+    padding-top: 100px; 
+    font-size: 3vw;
+    color: black;
+    display: grid; 
+    grid-template-columns: 133px 133px 133px; 
+  }
+  .optionsLine {
+    margin: 0 auto;
+    width: 100px; 
+    height: 1px; 
+    background-color: #4e36ff; 
+    grid-column-start: 1; 
+    transition: .2s;
+  }
+  .optionsLineTom {
+    opacity: 0;
+  }
+  .optionsLineLGBTQ {
+    width: 100px; 
+    margin: 0 auto; 
+    height: 1px; 
+    background-color:#4e36ff; 
+    grid-column-start: 2;
+    transition: .2s;
+  }
+
+  .optionsLineYtring {
+    margin: 0 auto;
+    width: 100px; 
+    height: 1px; 
+    background-color: #4e36ff; 
+    grid-column-start: 3;
+    transition: .2s;
+  }
+  .kvinnerSelection {
+    padding-top: 150px; 
+    margin: 0 auto; 
+    width: 510px; 
+    display: grid; 
+    grid-template-columns: 250px 250px; 
+  }
+  .lgbtqSelection { 
+    padding-top: 150px; 
+    margin: 0 auto; 
+    width: 510px; 
+    display: grid; 
+    grid-template-columns: 250px 250px; 
+  }
+  .ytringSelection { 
+    padding-top: 150px; 
+    margin: 0 auto; 
+    width: 510px; 
+    display: grid; 
+    grid-template-columns: 250px 250px; 
+  }
+
+  .frontPageMessage {
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 380px; 
+    color: #3a3a3a;
+    /*color: #4e36ff;*/ 
+    font-family: "avenir";
+    font-size: 20px; 
+    text-align: justify;
+    font-weight: 500; 
+    letter-spacing: .1rem;
+    line-height: 2.2rem; 
+  }
+  
+  .frontPageMessage span {
+    color: #4e36ff; 
+   
+  }
+
+
+
+}
+
+/* iPhone/mobile verical responsive sizes */
+
+@media (max-width: 400px) {
+    .optionsComponent {
+      width: 200px; 
+      height: 10px; 
+      font-family: 'avenir';
+      margin: 0 auto; 
+      padding-top: 100px; 
+      font-size: 14px;
+      color: black;
+      display: grid; 
+      grid-template-columns: 60px 60px 90px; 
+      grid-template-rows: 40px 3px;
+    }
+    .optionsLine {
+      margin: 0 auto;
+      width: 30px; 
+      height: 1px; 
+      background-color: #4e36ff; 
+      grid-row-start: 2; 
+      transition: .2s;
+    }
+    .optionsLineTom {
+      opacity: 0;
+    }
+    .optionsLineLGBTQ {
+      width: 30px; 
+      margin: 0 auto; 
+      height: 1px; 
+      background-color:#4e36ff; 
+      grid-row-start: 4;
+      transition: .2s;
+    }
+    .optionsLineYtring {
+      margin: 0 auto;
+      width: 30px; 
+      height: 1px; 
+      background-color: #4e36ff; 
+      grid-row-start: 6;
+      transition: .2s;
+    }
+
+    .kvinnerSelection {
+      margin: 0 auto; 
+      margin-top: 50px; 
+      padding-top: 50px; 
+      padding-bottom: 20px; 
+      display: grid;
+      width: 250px; 
+      grid-gap: 10px; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 120px; 
+    }
+    .kvinnerSelectionNone {
+      display: none; 
+    }
+    .lgbtqSelection {
+      margin: 0 auto;
+      margin-top: 50px;
+      padding-top: 50px; 
+      padding-bottom: 20px;  
+      display: grid;
+      width: 250px; 
+      grid-gap: 10px; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 120px;
+    }
+    .lgbtqSelectionNone {
+      display: none; 
+    }
+    .ytringSelection {
+
+      margin: 0 auto;
+      margin-top: 50px; 
+      padding-top: 50px; 
+      padding-bottom: 20px; 
+      display: grid;
+      width: 250px; 
+      grid-gap: 10px; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 120px;
+    }
+    .ytringSelectionNone {
+      display: none; 
+    } 
+
+    .frontPageMessage {
+      margin: 0 auto;
+      padding-top: 110px;
+      width: 270px; 
+      color: #3a3a3a;
+      /*color: #4e36ff;*/ 
+      font-family: "avenir";
+      font-size: 15px; 
+      text-align: left;
+      font-weight: 500; 
+      letter-spacing: .1rem;
+      line-height: 1.3rem; 
+    }
+    
+    .frontPageMessage span {
+      color: #4e36ff; 
+     
+    }
+
+}
