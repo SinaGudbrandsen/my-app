@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SinaGudbrandsen/my-app.git/static/css/main.6598ca22.chunk.css",
-    "main.js": "/SinaGudbrandsen/my-app.git/static/js/main.89bf58f7.chunk.js",
-    "main.js.map": "/SinaGudbrandsen/my-app.git/static/js/main.89bf58f7.chunk.js.map",
-    "runtime~main.js": "/SinaGudbrandsen/my-app.git/static/js/runtime~main.94a4ef7a.js",
-    "runtime~main.js.map": "/SinaGudbrandsen/my-app.git/static/js/runtime~main.94a4ef7a.js.map",
-    "static/js/2.5dbd8ed4.chunk.js": "/SinaGudbrandsen/my-app.git/static/js/2.5dbd8ed4.chunk.js",
-    "static/js/2.5dbd8ed4.chunk.js.map": "/SinaGudbrandsen/my-app.git/static/js/2.5dbd8ed4.chunk.js.map",
-    "index.html": "/SinaGudbrandsen/my-app.git/index.html",
-    "precache-manifest.5ee6f9ccf9359128d8c50e2267910143.js": "/SinaGudbrandsen/my-app.git/precache-manifest.5ee6f9ccf9359128d8c50e2267910143.js",
-    "service-worker.js": "/SinaGudbrandsen/my-app.git/service-worker.js",
-    "static/css/main.6598ca22.chunk.css.map": "/SinaGudbrandsen/my-app.git/static/css/main.6598ca22.chunk.css.map"
+    "main.css": "/SinaGudbrandsen/my-app/static/css/main.6598ca22.chunk.css",
+    "main.js": "/SinaGudbrandsen/my-app/static/js/main.aeb43157.chunk.js",
+    "main.js.map": "/SinaGudbrandsen/my-app/static/js/main.aeb43157.chunk.js.map",
+    "runtime~main.js": "/SinaGudbrandsen/my-app/static/js/runtime~main.5d8c6abb.js",
+    "runtime~main.js.map": "/SinaGudbrandsen/my-app/static/js/runtime~main.5d8c6abb.js.map",
+    "static/js/2.5dbd8ed4.chunk.js": "/SinaGudbrandsen/my-app/static/js/2.5dbd8ed4.chunk.js",
+    "static/js/2.5dbd8ed4.chunk.js.map": "/SinaGudbrandsen/my-app/static/js/2.5dbd8ed4.chunk.js.map",
+    "index.html": "/SinaGudbrandsen/my-app/index.html",
+    "precache-manifest.ec9e8eee31dd0d4254189ad241ab4200.js": "/SinaGudbrandsen/my-app/precache-manifest.ec9e8eee31dd0d4254189ad241ab4200.js",
+    "service-worker.js": "/SinaGudbrandsen/my-app/service-worker.js",
+    "static/css/main.6598ca22.chunk.css.map": "/SinaGudbrandsen/my-app/static/css/main.6598ca22.chunk.css.map"
   }
 }
